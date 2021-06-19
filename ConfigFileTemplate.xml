@@ -1,0 +1,41 @@
+<configuration>
+  <applications>
+    <engine name = "UE4"></engine>
+      <version name = "4.26">C:\\Program Files\\Epic Games\\UE_4.26</version>
+    <dcc name = "Maya">
+      <version name = "2020">C:\\Program Files\\Autodesk\\Maya2020\\bin\\maya.exe</version>
+      <fileType>.ma</fileType>
+      <fileType>.mb</fileType>
+      <fileType>.FBX</fileType>
+      <template name = "Model">TemplateAssets\\MayaModel.ma</template>
+      <template name = "Rig">TemplateAssets\\MayaRig.ma</template>
+      <template name = "Animation">TemplateAssets\\MayaAnimation.ma</template>
+    </dcc>
+    <dcc name = "ZBrush">
+      <version name = "2020.1.4">C:\\Program Files\\Pixologic\\ZBrush 2020.1.4 FL\\ZBrush.exe</version>
+      <fileType>.ZPR</fileType>
+      <fileType>.ZTL</fileType>
+    </dcc>
+    <dcc name = "Houdini">
+      <version name = "18.5.462">C:\\Program Files\\Side Effects Software\\Houdini 18.5.462\\bin\\houdinifx.exe</version>
+      <fileType>.hipnc</fileType>
+      <fileType>.hdanc</fileType>
+      <fileType>.geo</fileType>
+    </dcc>
+    <dcc name = "Photoshop">
+      <version name = "CC 2020">C:\\Program Files\\Adobe\\Adobe Photoshop 2020\\Photoshop.exe</version>
+      <fileType>.PSD</fileType>
+      <fileType>.PSB</fileType>
+    </dcc>
+    <dcc name = "Substance Painter">
+      <version name = "7.1.1">C:\\Program Files\\Allegorithmic\\Substance Painter\\Substance Painter.exe</version>
+      <fileType>.spp</fileType>
+    </dcc>
+    <dcc name = "Substance Designer">
+      <version name = "10.2.0">C:\\Program Files\\Allegorithmic\\Substance Designer\\Substance Designer.exe</version>
+      <fileType>.sbs</fileType>
+      <fileType>.sbsar</fileType>
+    </dcc>
+  </applications>
+  <tools></tools>
+</configuration>

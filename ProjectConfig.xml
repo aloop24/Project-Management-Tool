@@ -1,0 +1,18 @@
+<proj>
+  <dir name="ArtDepot">
+    <dir name = "Maya">
+    </dir>
+    <dir name = "Zbrush">
+    </dir>
+    <dir name = "Houdini">
+    </dir>
+    <dir name = "Photoshop">
+    </dir>
+    <dir name = "Substance">
+    </dir>
+    <dir name = "FBX">
+    </dir>
+  </dir>
+  <dir name = "UE4">
+  </dir>
+</proj>

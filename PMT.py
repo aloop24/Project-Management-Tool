@@ -97,12 +97,15 @@ class Project(Folder):
     def createUEProject(self):
         # copy the UE4 project
         UESource = os.path.join(os.getcwd(), "UE4Project")
+        UE4Project = "UE4Project"
+
+        UESource = os.path.join(os.getcwd(), UE4Project)
         UERoot= os.path.join(self.path, "UE4")
         UEPath = os.path.join(UERoot, "{}".format(self.name))
         shutil.copytree(UESource, UEPath)
 
         # rename the uproject file
-        UEProject = os.path.join(UEPath, "UE4Project.uproject")
+        UEProject = os.path.join(UEPath, "{}.uproject".format(UE4Project))
         UEProjectName = os.path.join(UEPath, "{}.uproject".format(self.name))
         os.rename(UEProject, UEProjectName)
 
